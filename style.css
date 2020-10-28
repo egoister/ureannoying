@@ -1,0 +1,232 @@
+html, body{
+	height: 100%;
+	width: 100%;
+ 	font-family: 'Raleway', sans-serif;
+ 	color:#222;
+}
+
+/*za sve deafult paragrafe*/
+p{
+	font-size: 13px;
+	text-align: center;
+}
+h2{
+	font-size: 20px;
+	color: grey;
+	font-family: 'Nanum Pen Script', cursive;
+
+}
+a{
+	text-decoration: none;
+	color: pink;
+}
+img{
+	max-width: 100%;
+}
+.navbar{
+	padding: .8rem;	
+}
+.navbar-nav{
+	padding-right: 20px;
+}
+.nav-link{
+	font-size: 1.1em ! important;
+}
+
+.carousel-inner img{
+	height: 100%;
+	width: 100%;
+}
+.carousel-caption{
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+}
+.carousel-caption h1{
+	font-size: 500%
+	text-transform:uppercase;
+	text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption h3{
+	font-size: 200%;
+	font-weight: 500;
+	text-shadow: 1px 1px 10px #000;
+	padding-bottom: 1rem;
+}
+.btn-primary{
+	background-color:pink;
+	border:1px solid black;
+}
+.btn-primary:hover{
+	background-color:lightblue;
+	border:1px solid black;
+}
+
+
+
+nav ul li{
+	display:inline-block;
+	margin: 0 15px; /*0 je za gore i dole, 15 za izmedju,tj denso lijevo*/
+	padding: 0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 13px;
+	font-family: 'Raleway', sans-serif;
+}
+nav ul li:hover{
+	text-decoration: line-through;
+	background:#FFF9FB;
+
+
+}
+ nav h2{
+ 		text-align: center;
+ 		font-family: 'Raleway', sans-serif;
+ 		margin: 30 10px; /*0 je za gore i dole, 15 za izmedju,tj denso lijevo*/
+		padding: 0;
+		text-transform: uppercase;
+ }
+ header{
+ 	border-bottom: 1px solid black;
+ 	text-align: center;
+ 	font-family: 'Raleway', sans-serif;
+ 	padding: 400px;
+ 	position: relative;
+
+ }
+
+/*tacka je za klasu*/
+.prviparagraf{
+	background: grey;
+	font-size: 11px;
+	background-color: #F4E3D7 ;
+}
+footer{
+	position: relative;
+	text-align:center;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase';
+	margin: 100px;
+	border-top:1px solid black;
+	padding-top: 30px;
+	background: white;
+
+}
+
+footer h2{
+	font-family: 'Dawning of a New Day', cursive;
+	color: black;
+}
+footer ul li{
+	display:inline-block;
+	margin: 0 10px; /*0 je za gore i dole, 15 za izmedju,tj denso lijevo*/
+	padding: 0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 10px;
+	font-family: 'Raleway', sans-serif;
+}
+.granica{
+	border-bottom: 3px solid  black;;
+	background: #FFF9FB;
+}
+
+
+
+/*----------------------------------------------------------Bootstrap--------------------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+
+
+
+
+
+
+
+
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/mac.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+/*----------------------------------------------------------Bootstrap--------------------------------------------------------------------------------------*/
+
+
+
+
+
+
